@@ -23,6 +23,7 @@ This repository primarily serves as a showcase of the frontend implementation of
 
 ![Text Reader](https://cdn.discordapp.com/attachments/1140523255078334525/1173122873402073108/image.png?ex=6587b8d0&is=657543d0&hm=e2b873025e34dde56ec5b8de5285f62d8c29ac8ba6a62edc8e0716646318cafc&)
 
+![Text Reader 2](https://cdn.discordapp.com/attachments/1140523255078334525/1173126516037652530/image.png?ex=6587bc35&is=65754735&hm=696fcaaab7c195c9c1a03d0c8e87cbdb460a34ec7550418f7f0f72f064472fad&)
 
 ![PDF Staging Area](https://media.discordapp.net/attachments/1140523255078334525/1159176772231893062/image.png?ex=658c5b7e&is=6579e67e&hm=b488bb537076e84f9344a258bd828628bc5b9dbd77885ccb2d28127038c79d66&=&format=webp&quality=lossless&width=732&height=719)
 
