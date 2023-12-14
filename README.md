@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# PDF Tagging & Accessbility Tool
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This high-end and user-friendly tool is developed to streamline the process of tagging PDF documents and enhancing their accessibility. The project was completed as part of the University of Melbourne's capstone project for COMP30022 in 2023 Semester 2. It is crafted using a modern tech stack including React.js, React Router, Redux for frontend functionality, and ChakraUI for styling and animations.
 
-In the project directory, you can run:
+The application is designed with a focus on ease of use, offering a seamless experience for users who need to manage PDF documents and increase accessiblity for text based readers. 
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Frontend Showcase**
 
-### `npm test`
+This repository primarily serves as a showcase of the frontend implementation of a PDF editing and viewing application and some of the Custom Components created by me. It demonstrates the intended user interface and interactions, although full functionality requires integration with a backend not included in this repository. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **PDF Text Selection:** This tool elevates the user experience by enabling the selection and extraction of text from PDF documents. This feature is particularly useful for interacting with text in non-selectable formats, making it easier to work with various types of PDFs.
+- **PDF Viewer:** Fleshed out PDF Viewer for easy navigation of PDfs. It includes convenient page thumbnail navigation, smooth page navigation, and versatile zoom options to cater to different viewing preferences.
+- **Text-Rich Editor:** After extracting text from PDFs, users can leverage the power of Quill.js for rich-text editing. This feature allows extensive styling and formatting options, enabling users to edit and customize the extracted text to suit their needs. Saved text is stored and can be then edited, changed as required.  
+- **Dynamic Routing with React Router:** Provides seamless navigation between different components and pages within the application.
+- **Text Reader:** High end text reader with accessiblity features such as zoom, font change, and colours and a table of contents. Once text is generated, Text can be viewed via this page.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Text Reader](https://cdn.discordapp.com/attachments/1140523255078334525/1173122873402073108/image.png?ex=6587b8d0&is=657543d0&hm=e2b873025e34dde56ec5b8de5285f62d8c29ac8ba6a62edc8e0716646318cafc&)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+![PDF Staging Area](https://media.discordapp.net/attachments/1140523255078334525/1159176772231893062/image.png?ex=658c5b7e&is=6579e67e&hm=b488bb537076e84f9344a258bd828628bc5b9dbd77885ccb2d28127038c79d66&=&format=webp&quality=lossless&width=732&height=719)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Upload Page](https://cdn.discordapp.com/attachments/1173226904740958208/1173227209478131772/image.png?ex=658819fc&is=6575a4fc&hm=cc92425e88dc21b0f944075ac682fa1bd94d16322307e4eb85949b383308ac37&)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Table Of Contents](https://cdn.discordapp.com/attachments/1173226904740958208/1173226933459365928/image.png?ex=658819ba&is=6575a4ba&hm=c4febceec96eec0acddc82812564a300ccbd1e822e1cc000051087930b4ddca6&)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![PDF Staging Area 2](https://cdn.discordapp.com/attachments/1173226904740958208/1173227679760261153/image.png?ex=65881a6c&is=6575a56c&hm=7a8fa7a4ac354ef60a406b83c8c17c2aa35707d319c64d209c96afcaa1fcd72e&)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Milad Izra](https://github.com/mizra2/)
+- [Grace Sendjaja](https://github.com/gsendjaja/)
