@@ -1,0 +1,26 @@
+version: '3.7'
+services:
+  frontend:
+    stdin_open: true
+    container_name: frontend
+    image: nishitproject/backend:frontend-dev
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - 3001:3000
+      - 8080:8080
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+
+volumes:
+  keycloak-mysql-vol:
+  mysql_data:
+
+networks:
+  webproxy:
+    name: webproxy
+    external: true
