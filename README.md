@@ -35,6 +35,8 @@ This repository primarily serves as a showcase of the frontend implementation of
 
 ![PDF Staging Area 2](https://cdn.discordapp.com/attachments/1173226904740958208/1173227679760261153/image.png?ex=65881a6c&is=6575a56c&hm=7a8fa7a4ac354ef60a406b83c8c17c2aa35707d319c64d209c96afcaa1fcd72e&)
 
+![Error Handling Examples](https://cdn.discordapp.com/attachments/1173226904740958208/1173228846410125424/image.png?ex=65881b82&is=6575a682&hm=266a514b885febdb9ef29975d3291dad7f70fa20369076f1461472a5eaebfb9b&)
+
 
 ## Authors
 
